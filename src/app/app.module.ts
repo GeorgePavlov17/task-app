@@ -31,15 +31,11 @@ const appRoutes: Routes = [
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes, {enableTracing: true}),
-    // FontAwesomeModule,
+    RouterModule.forRoot(appRoutes, {enableTracing: true})
   ],
 
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })
 export class AppModule {
-  // constructor(library: FaIconLibrary) { 
-	// 	library.addIconPacks(fas, fab, far);
-	// }
 }

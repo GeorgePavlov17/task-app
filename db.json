@@ -23,12 +23,6 @@
       "day": "May 7th",
       "reminder": false,
       "id": 4
-    },
-    {
-      "text": "Test Task",
-      "day": "May 7th",
-      "reminder": false,
-      "id": 5
     }
   ]
 }
